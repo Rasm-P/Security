@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>TODO supply a title</title>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.0/css/bootstrap.min.css" >
+    </head>
+    <body>
+        <div class="container">
+            <h2>A-2 Vulnerability Demo </h2>
+            <h4>Press link below, to see your personal data</h4>
+            <br/>
+            <em>Login with user = a@b.dk and password = test, and read your "personal data"</em>
+            <br/>
+            <a href="secret.jsp">My Data</a>
+            <hr/>
+
+
+            Your task is to see whether you can access personal data for other users.<br/>
+            Assume that you DON't known their passwords, but do know their user names (b@b.dk, c@b.dk ....)<br/>
+            Use your knowledge from third semester to:<br/>
+            <ul>
+                <li>Investigate the HTML/JS sent from the server </li>
+                <li> Monitor the Ajax  Request</li>
+                <li> You probably will need to use Postman (or something similar)</li>
+                <li>The system uses BASIC AUTH, so the ONLY way to log out is to close your browser completely</li>
+            </ul>
+
+        </div>
+    </body>
+</html>
