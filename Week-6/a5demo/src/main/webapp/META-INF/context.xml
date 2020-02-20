@@ -3,7 +3,7 @@
     <!-- Add the User and Password to your local a2demo database -->         
     <Realm className="org.apache.catalina.realm.JDBCRealm"
            driverName="com.mysql.jdbc.Driver"
-           connectionURL="jdbc:mysql://localhost:3307/a5demo?user=xxx&amp;password=xxx"
+           connectionURL="jdbc:mysql://localhost:3307/a5demo?user=dev&amp;password=ax2"
            userTable="users" 
            userNameCol="user_email" 
            userCredCol="user_pass"
