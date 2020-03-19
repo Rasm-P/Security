@@ -1,9 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<Context path="/a2demo" sessionCookieName="custom_session_id">
-    <!-- Add the User and Password to your local a2demo database -->         
+<Context path="/authenticationUserDb" sessionCookieName="custom_session_id">       
     <Realm className="org.apache.catalina.realm.JDBCRealm"
            driverName="com.mysql.jdbc.Driver"
-           connectionURL="jdbc:mysql://localhost:3307/a5demo?user=dev&amp;password=ax2"
+           connectionURL="jdbc:mysql://localhost:3307/userDbScript?user=dev&amp;password=ax2"
            userTable="users" 
            userNameCol="user_email" 
            userCredCol="user_pass"
