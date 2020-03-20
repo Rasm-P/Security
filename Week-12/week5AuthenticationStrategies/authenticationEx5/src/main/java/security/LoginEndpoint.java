@@ -35,33 +35,51 @@ public class LoginEndpoint {
     @Consumes(MediaType.APPLICATION_JSON)
     @Produces(MediaType.APPLICATION_JSON)
     public Response login(String jsonString) throws AuthenticationException {
-        
-            JsonObject json = new JsonParser().parse(jsonString).getAsJsonObject();
-            String username = json.get("username").getAsString();
-            String password = json.get("password").getAsString();
 
-            //Todo refactor into facade
-            try {
-                User user = UserFacade.getInstance().getVeryfiedUser(username, password);
-                String token = createToken(username, user.getRolesAsStrings());
-                JsonObject responseJson = new JsonObject();
-                responseJson.addProperty("username", username);
-                responseJson.addProperty("token", token);
-                return Response.ok(new Gson().toJson(responseJson)).build();
+        JsonObject json = new JsonParser().parse(jsonString).getAsJsonObject();
+        String username = json.get("username").getAsString();
+        String password = json.get("password").getAsString();
 
-            } catch (Exception  ex) {
-                if(ex instanceof AuthenticationException){
-                    throw (AuthenticationException)ex;
-                }
-                Logger.getLogger(GenericExceptionMapper.class.getName()).log(Level.SEVERE, null, ex);
+        //Todo refactor into facade
+        try {
+            User user = UserFacade.getInstance().getVeryfiedUser(username, password);
+            String token = createToken(username, user.getRolesAsStrings());
+            JsonObject responseJson = new JsonObject();
+            responseJson.addProperty("username", username);
+            responseJson.addProperty("token", token);
+            return Response.ok(new Gson().toJson(responseJson)).build();
+
+        } catch (Exception ex) {
+            if (ex instanceof AuthenticationException) {
+                throw (AuthenticationException) ex;
             }
-            throw new AuthenticationException("Invalid username or password! Please try again");
+            Logger.getLogger(GenericExceptionMapper.class.getName()).log(Level.SEVERE, null, ex);
         }
-
-    
+        throw new AuthenticationException("Invalid username or password! Please try again");
+    }
 
     private String createToken(String userName, List<String> roles) throws JOSEException {
+        StringBuilder res = new StringBuilder();
+        for (String string : roles) {
+            res.append(string);
+            res.append(",");
+        }
+        String rolesAsString = res.length() > 0 ? res.substring(0, res.length() - 1) : "";
+        String issuer = "semesterdemo_security_course";
 
-           return  "In this exercise you must create a valid token, for Authenticated users";
+        JWSSigner signer = new MACSigner(SharedSecret.getSharedKey());
+        Date date = new Date();
+        JWTClaimsSet claimsSet = new JWTClaimsSet.Builder()
+                .subject(userName)
+                .claim("username", userName)
+                .claim("roles", rolesAsString)
+                .claim("issuer", issuer)
+                .issueTime(date)
+                .expirationTime(new Date(date.getTime() + TOKEN_EXPIRE_TIME))
+                .build();
+        SignedJWT signedJWT = new SignedJWT(new JWSHeader(JWSAlgorithm.HS256), claimsSet);
+        signedJWT.sign(signer);
+        return signedJWT.serialize();
+
     }
 }
