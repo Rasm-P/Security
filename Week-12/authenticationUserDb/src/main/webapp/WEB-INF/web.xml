@@ -5,6 +5,7 @@
             30
         </session-timeout>
     </session-config>
+    
     <!-- SECURITY CONSTRAINT #1 -->
     <security-constraint>
         <display-name>Constraint1</display-name>
@@ -35,10 +36,49 @@
         <!--    </user-data-constraint>-->
     </security-constraint>
     
+    <!-- SECURITY CONSTRAINT #3 REST -->
+    <security-constraint>
+        <display-name>Constraint3</display-name>
+        <web-resource-collection>
+            <web-resource-name>data/user</web-resource-name>
+            <url-pattern>/api/data/user</url-pattern>
+        </web-resource-collection>
+        <auth-constraint>
+            <role-name>user</role-name>
+        </auth-constraint>
+        <!--    <user-data-constraint>-->
+        <!--       <transport-guarantee>CONFIDENTIAL</transport-guarantee>-->
+        <!--    </user-data-constraint>-->
+    </security-constraint>
+    
+    <!-- SECURITY CONSTRAINT #4 REST -->
+    <security-constraint>
+        <display-name>Constraint4</display-name>
+        <web-resource-collection>
+            <web-resource-name>data/admin</web-resource-name>
+            <url-pattern>/api/data/admin</url-pattern>
+        </web-resource-collection>
+        <auth-constraint>
+            <role-name>admin</role-name>
+        </auth-constraint>
+        <!--    <user-data-constraint>-->
+        <!--       <transport-guarantee>CONFIDENTIAL</transport-guarantee>-->
+        <!--    </user-data-constraint>-->
+    </security-constraint>
+    
     <login-config>
         <auth-method>BASIC</auth-method>
         <realm-name>jdbcRealm</realm-name>
     </login-config>
+    
+    <!--  <login-config>
+        <auth-method>FORM</auth-method>
+        <realm-name>jdbcRealm</realm-name>
+        <form-login-config>
+            <form-login-page>/login.html</form-login-page>
+            <form-error-page>/error.html</form-error-page>
+        </form-login-config>
+    </login-config>-->
     
     <security-role>
         <description/>

@@ -1,12 +1,13 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<Context path="/authenticationUserDb" sessionCookieName="custom_session_id">       
-    <Realm className="org.apache.catalina.realm.JDBCRealm"
-           driverName="com.mysql.jdbc.Driver"
-           connectionURL="jdbc:mysql://localhost:3307/userDbScript?user=dev&amp;password=ax2"
-           userTable="users" 
-           userNameCol="user_email" 
-           userCredCol="user_pass"
-           userRoleTable="user_roles" 
-           roleNameCol="role_name"/>
-           
+<Context path="/authenticationUserDb" sessionCookieName="custom_session_id"> 
+    <Realm className="org.apache.catalina.realm.LockOutRealm" failureCount="2">      
+        <Realm className="org.apache.catalina.realm.JDBCRealm"
+               driverName="com.mysql.jdbc.Driver"
+               connectionURL="jdbc:mysql://localhost:3307/userDbScript?user=dev&amp;password=ax2"
+               userTable="users" 
+               userNameCol="user_email" 
+               userCredCol="user_pass"
+               userRoleTable="user_roles" 
+               roleNameCol="role_name"/>
+    </Realm> 
 </Context>
