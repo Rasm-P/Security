@@ -1,13 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="59e04533-effb-45a2-b5d4-246fffcb4b5f" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/jarRepositories.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/gradle.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/gradle.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build.gradle" beforeDir="false" afterPath="$PROJECT_DIR$/build.gradle" afterDir="false" />
-    </list>
+    <list default="true" id="59e04533-effb-45a2-b5d4-246fffcb4b5f" name="Default Changelist" comment="" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -26,12 +20,7 @@
         </task>
         <projects_view>
           <tree_state>
-            <expand>
-              <path>
-                <item name="" type="6a2764b6:ExternalProjectsStructure$RootNode" />
-                <item name="service-under-attack" type="f1a62948:ProjectNode" />
-              </path>
-            </expand>
+            <expand />
             <select />
           </tree_state>
         </projects_view>
@@ -46,7 +35,7 @@
     </option>
   </component>
   <component name="Git.Settings">
-    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/../../.." />
   </component>
   <component name="ProjectId" id="1ZylsLW6ZGEZnHt1f0qeKSZSmIo" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
@@ -168,29 +157,31 @@
       <map>
         <entry key="MAIN">
           <value>
-            <State />
+            <State>
+              <option name="COLUMN_ORDER" />
+            </State>
           </value>
         </entry>
       </map>
     </option>
   </component>
   <component name="WindowStateProjectService">
-    <state width="458" height="225" key="GridCell.Tab.0.bottom" timestamp="1585821151582">
+    <state width="763" height="238" key="GridCell.Tab.0.bottom" timestamp="1585942324993">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="458" height="225" key="GridCell.Tab.0.bottom/0.0.1920.1040/-1920.0.1920.1040@0.0.1920.1040" timestamp="1585821151582" />
-    <state width="458" height="225" key="GridCell.Tab.0.center" timestamp="1585821151582">
+    <state width="763" height="238" key="GridCell.Tab.0.bottom/0.0.1920.1040/-1920.0.1920.1040@0.0.1920.1040" timestamp="1585942324993" />
+    <state width="763" height="238" key="GridCell.Tab.0.center" timestamp="1585942324993">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="458" height="225" key="GridCell.Tab.0.center/0.0.1920.1040/-1920.0.1920.1040@0.0.1920.1040" timestamp="1585821151582" />
-    <state width="458" height="225" key="GridCell.Tab.0.left" timestamp="1585821151582">
+    <state width="763" height="238" key="GridCell.Tab.0.center/0.0.1920.1040/-1920.0.1920.1040@0.0.1920.1040" timestamp="1585942324993" />
+    <state width="763" height="238" key="GridCell.Tab.0.left" timestamp="1585942324993">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="458" height="225" key="GridCell.Tab.0.left/0.0.1920.1040/-1920.0.1920.1040@0.0.1920.1040" timestamp="1585821151582" />
-    <state width="458" height="225" key="GridCell.Tab.0.right" timestamp="1585821151582">
+    <state width="763" height="238" key="GridCell.Tab.0.left/0.0.1920.1040/-1920.0.1920.1040@0.0.1920.1040" timestamp="1585942324993" />
+    <state width="763" height="238" key="GridCell.Tab.0.right" timestamp="1585942324993">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="458" height="225" key="GridCell.Tab.0.right/0.0.1920.1040/-1920.0.1920.1040@0.0.1920.1040" timestamp="1585821151582" />
+    <state width="763" height="238" key="GridCell.Tab.0.right/0.0.1920.1040/-1920.0.1920.1040@0.0.1920.1040" timestamp="1585942324993" />
   </component>
   <component name="masterDetails">
     <states>
