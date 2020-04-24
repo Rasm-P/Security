@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Start Page</title>
+        <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+        <link rel="stylesheet" href="styles.css" type="text/css">
+    </head>
+    <body>
+        <div>
+          <h2>XSS and Session Hi-jacking Demo</h2>
+          <ul class="menu">
+              <li><a href='AddUser'>Add new User</a></li>
+              <li><a href='SearchDemo'>Reflected (Non Persistent) XSS Demo</a></li>
+              <li><a href='StoredXssDemo'>Stored XSS Demo</a></li>
+              <li><a href="domXss.html?default=danish">DOM XSS</a></li>
+              <li><a href='Logout'>Logout</a></li>
+          </ul>
+          <p>The servlet based container has (a minimum) of these flaws</p>
+          <ul>
+            <li>Pages are made with plain out.statements</li>
+            <li>Uses a "self designed" security system (based on sessions)</li>
+            <li>No Escaping of user inputs</li>
+            <li>Context.xml is set up like this: &lt;Context path=&quot;/sql_Injecton1&quot; useHttpOnly=&quot;false&quot;/&gt;</li>
+          </ul>
+          
+          
+          <p>Can you, using XSS, Session Highjacking and other cool hacker tricks, steal a session id, and another users secret</p>
+        </div>
+       
+    </body>
+</html>
+

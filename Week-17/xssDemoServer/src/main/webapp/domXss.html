@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+
+<html>
+    <head>
+        <title>TODO supply a title</title>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    </head>
+    <body>
+        <h2>This attach will fail (luckily) in newer versions of Chrome and FireFox, but not in IE11 and below</h2>
+        Select your language:
+        <select><script>
+            document.write("<OPTION value=1>" + document.location.href.substring(document.location.href.indexOf("default=") + 8) + "</OPTION>");
+            document.write("<OPTION value=2>English</OPTION>");
+        </script></select>
+        
+        <p>Test this page (via any browser) by adding this url-parameter to the end '?default=danish'</p>
+        <p>Test this page (via ie 11 or below) by adding this url-parameter to the end "?default=&lt;script&gt;alert('you were hacked')&lt;/script&gt;"</p>
+        
+
+    </body>
+</html>

@@ -1,0 +1,55 @@
+
+ul.menu li {
+    display: inline;
+    list-style-type: none;
+    margin: 0;
+}
+
+ul.menu {
+    background-color: steelblue;
+    padding: 0;
+}
+
+ul.menu li a {
+    color: #FFF;
+    
+    text-decoration: none;
+    padding: 10px;
+    display: inline-block;
+}
+
+ul.menu a:hover {
+    background-color: lightsteelblue;
+}
+
+
+.results {
+    border: solid 1px lightsteelblue;
+    border-radius: 4px;
+    width:300px; 
+    padding:1em;
+    margin-top:5px;
+}
+
+.inp {
+     margin-bottom: 6px;} 
+
+fieldset {width: 20em;padding:1em;}
+
+body {
+	width: 80%;
+	margin: auto;
+         margin-top:1em;
+         font-family: Helvetica, Arial, sans-serif;
+}
+.data {font-style: italic; color: steelblue;}
+
+.container {
+	width: 80%;
+	margin: auto;
+        margin-top:1em;
+        font-family: sans-serif;
+}
+
+
+
