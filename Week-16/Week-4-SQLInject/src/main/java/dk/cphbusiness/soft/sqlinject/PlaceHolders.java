@@ -1,9 +1,5 @@
 package dk.cphbusiness.soft.sqlinject;
 
-import static java.lang.String.join;
-import java.util.Arrays;
-import java.util.stream.Stream;
-
 public class PlaceHolders {
 
     public static String field(String name, String... whitelist) {
@@ -19,13 +15,10 @@ public class PlaceHolders {
     }
 
     public static String string(String value) {
-        // TODO: Implement!!!
         return "'" + value.replace("'", "\\'") + "'";
     }
 
     public static String stringList(String... values) {
-        // First attempt, does not use "string(...)"
-        // return "('"+join("','",values)+"')";
         String result = "";
         for (String value : values) {
             if (result.isEmpty()) {
@@ -38,16 +31,20 @@ public class PlaceHolders {
     }
 
     public static String integer(String value) {
-        return value;
+        if (value.replace("'", "").matches("-?\\d+")) {
+            return value;
+        } else {
+            throw new IllegalArgumentException("Bad input bro...");
+        }
     }
 
     public static String integerList(String... values) {
         String result = "";
         for (String value : values) {
             if (result.isEmpty()) {
-                result = string(value);
+                result = integer(value);
             } else {
-                result += ", " + string(value);
+                result += ", " + integer(value);
             }
         }
         return "(" + result + ")";

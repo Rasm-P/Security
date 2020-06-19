@@ -1,19 +1,12 @@
 package dk.cphbusiness.security.encryption;
 
 import java.io.IOException;
-import java.nio.charset.StandardCharsets;
 import java.nio.file.Files;
 import java.nio.file.Paths;
 import java.security.InvalidAlgorithmParameterException;
 import java.security.InvalidKeyException;
-import java.security.Key;
 import java.security.SecureRandom;
-import java.util.Arrays;
 import java.util.Base64;
-import java.util.logging.Level;
-import java.util.logging.Logger;
-import javax.crypto.Cipher;
-import javax.crypto.spec.SecretKeySpec;
 import javax.swing.JOptionPane;
 
 /*
@@ -27,7 +20,7 @@ import javax.swing.JOptionPane;
  */
 public class Exercise3CryptoEdit extends javax.swing.JFrame {
 
-    private static final String PATH = "C:/Users/rasmu/Documents/Security/Week-8/week-04-A3-GDPR/cryptofile.txt";
+    private static final String PATH = "C:/Users/rasmu/Desktop/Security/Week-8/week-04-A3-GDPR/cryptofile.txt";
 
     private String base64Iv;
 

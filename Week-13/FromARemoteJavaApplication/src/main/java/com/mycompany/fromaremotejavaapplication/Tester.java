@@ -19,9 +19,9 @@ public class Tester {
     EntityManager em = emf.createEntityManager();
     try {
       em.getTransaction().begin();
-      em.persist(new Demo("Info-1"));
-      em.persist(new Demo("Info-2"));
-      em.persist(new Demo("Info-3"));
+      em.persist(new Demo2(1,"Info-1"));
+      em.persist(new Demo2(2,"Info-2"));
+      em.persist(new Demo2(3,"Info-3"));
       em.getTransaction().commit();
     }finally{
       em.close();

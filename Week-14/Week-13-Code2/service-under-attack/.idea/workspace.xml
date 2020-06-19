@@ -1,7 +1,22 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="59e04533-effb-45a2-b5d4-246fffcb4b5f" name="Default Changelist" comment="" />
+    <list default="true" id="59e04533-effb-45a2-b5d4-246fffcb4b5f" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/../../../Week-10/Week-10 notes day2.docx" beforeDir="false" afterPath="$PROJECT_DIR$/../../../Week-10/Week-10 notes day2.docx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Week-12/authenticationUserDb/src/main/webapp/WEB-INF/web.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../../Week-12/authenticationUserDb/src/main/webapp/WEB-INF/web.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Week-12/week5AuthenticationStrategies/authenticationEx5/src/main/java/security/SharedSecret.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../../Week-12/week5AuthenticationStrategies/authenticationEx5/src/main/java/security/SharedSecret.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Week-13/FromARemoteJavaApplication/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../../Week-13/FromARemoteJavaApplication/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Week-13/FromARemoteJavaApplication/src/main/java/com/mycompany/fromaremotejavaapplication/Demo.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../../Week-13/FromARemoteJavaApplication/src/main/java/com/mycompany/fromaremotejavaapplication/Demo.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Week-13/FromARemoteJavaApplication/src/main/java/com/mycompany/fromaremotejavaapplication/Tester.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../../Week-13/FromARemoteJavaApplication/src/main/java/com/mycompany/fromaremotejavaapplication/Tester.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Social Engineering and DoS notes.docx" beforeDir="false" afterPath="$PROJECT_DIR$/../../Social Engineering and DoS notes.docx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Week-16/Injections.docx" beforeDir="false" afterPath="$PROJECT_DIR$/../../../Week-16/Injections.docx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Week-16/Week-4-SQLInject/src/main/java/dk/cphbusiness/soft/sqlinject/AppMain.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../../Week-16/Week-4-SQLInject/src/main/java/dk/cphbusiness/soft/sqlinject/AppMain.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Week-16/Week-4-SQLInject/src/main/java/dk/cphbusiness/soft/sqlinject/PlaceHolders.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../../Week-16/Week-4-SQLInject/src/main/java/dk/cphbusiness/soft/sqlinject/PlaceHolders.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Week-17/OWASP A7 Cross-Site Scripting (XSS).docx" beforeDir="false" afterPath="$PROJECT_DIR$/../../../Week-17/OWASP A7 Cross-Site Scripting (XSS).docx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Week-8/week-04-A3-GDPR/cryptofile.txt" beforeDir="false" afterPath="$PROJECT_DIR$/../../../Week-8/week-04-A3-GDPR/cryptofile.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Week-8/week-04-A3-GDPR/src/main/java/dk/cphbusiness/security/encryption/Exercise3CryptoEdit.form" beforeDir="false" afterPath="$PROJECT_DIR$/../../../Week-8/week-04-A3-GDPR/src/main/java/dk/cphbusiness/security/encryption/Exercise3CryptoEdit.form" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Week-8/week-04-A3-GDPR/src/main/java/dk/cphbusiness/security/encryption/Exercise3CryptoEdit.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../../Week-8/week-04-A3-GDPR/src/main/java/dk/cphbusiness/security/encryption/Exercise3CryptoEdit.java" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -50,7 +65,7 @@
     <property name="project.structure.last.edited" value="Global Libraries" />
     <property name="project.structure.proportion" value="0.0" />
     <property name="project.structure.side.proportion" value="0.22705314" />
-    <property name="settings.editor.selected.configurable" value="preferences.pluginManager" />
+    <property name="settings.editor.selected.configurable" value="project.propVCSSupport.Mappings" />
   </component>
   <component name="RunManager" selected="Gradle.service-under-attack [run]">
     <configuration default="true" type="Applet" factoryName="Applet">
@@ -166,22 +181,30 @@
     </option>
   </component>
   <component name="WindowStateProjectService">
-    <state width="763" height="238" key="GridCell.Tab.0.bottom" timestamp="1585942324993">
+    <state width="1563" height="238" key="GridCell.Tab.0.bottom" timestamp="1592594878108">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="763" height="238" key="GridCell.Tab.0.bottom/0.0.1920.1040/-1920.0.1920.1040@0.0.1920.1040" timestamp="1585942324993" />
-    <state width="763" height="238" key="GridCell.Tab.0.center" timestamp="1585942324993">
+    <state width="1564" height="238" key="GridCell.Tab.0.bottom/0.0.1920.1040/-1920.0.1920.1040@-1920.0.1920.1040" timestamp="1592521610454" />
+    <state width="1563" height="238" key="GridCell.Tab.0.bottom/0.0.1920.1040/-1920.0.1920.1040@0.0.1920.1040" timestamp="1592594878108" />
+    <state width="1563" height="238" key="GridCell.Tab.0.center" timestamp="1592594878105">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="763" height="238" key="GridCell.Tab.0.center/0.0.1920.1040/-1920.0.1920.1040@0.0.1920.1040" timestamp="1585942324993" />
-    <state width="763" height="238" key="GridCell.Tab.0.left" timestamp="1585942324993">
+    <state width="1564" height="238" key="GridCell.Tab.0.center/0.0.1920.1040/-1920.0.1920.1040@-1920.0.1920.1040" timestamp="1592521610454" />
+    <state width="1563" height="238" key="GridCell.Tab.0.center/0.0.1920.1040/-1920.0.1920.1040@0.0.1920.1040" timestamp="1592594878105" />
+    <state width="1563" height="238" key="GridCell.Tab.0.left" timestamp="1592594878105">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="763" height="238" key="GridCell.Tab.0.left/0.0.1920.1040/-1920.0.1920.1040@0.0.1920.1040" timestamp="1585942324993" />
-    <state width="763" height="238" key="GridCell.Tab.0.right" timestamp="1585942324993">
+    <state width="1564" height="238" key="GridCell.Tab.0.left/0.0.1920.1040/-1920.0.1920.1040@-1920.0.1920.1040" timestamp="1592521610454" />
+    <state width="1563" height="238" key="GridCell.Tab.0.left/0.0.1920.1040/-1920.0.1920.1040@0.0.1920.1040" timestamp="1592594878105" />
+    <state width="1563" height="238" key="GridCell.Tab.0.right" timestamp="1592594878105">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="763" height="238" key="GridCell.Tab.0.right/0.0.1920.1040/-1920.0.1920.1040@0.0.1920.1040" timestamp="1585942324993" />
+    <state width="1564" height="238" key="GridCell.Tab.0.right/0.0.1920.1040/-1920.0.1920.1040@-1920.0.1920.1040" timestamp="1592521610454" />
+    <state width="1563" height="238" key="GridCell.Tab.0.right/0.0.1920.1040/-1920.0.1920.1040@0.0.1920.1040" timestamp="1592594878105" />
+    <state x="461" y="162" key="SettingsEditor" timestamp="1592504605840">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="461" y="162" key="SettingsEditor/0.0.1920.1040/-1920.0.1920.1040@0.0.1920.1040" timestamp="1592504605840" />
   </component>
   <component name="masterDetails">
     <states>
